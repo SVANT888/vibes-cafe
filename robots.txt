@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://vibescafe.com/sitemap.xml
+Sitemap: https://vibescafe.netlify.app/sitemap.xml
