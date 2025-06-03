@@ -328,7 +328,6 @@ nav {
   color: #ffe6a7; /* Light warm color for subtitle */
   text-shadow: 1px 2px 3px rgba(0, 0, 0, 0.4);
   font-weight: 400;
-  opacity: 0.95;
 }
 
 /* Button Styles */
@@ -1571,4 +1570,76 @@ footer a:hover {
   border: none !important;
   background: transparent !important;
   box-shadow: none !important;
+}
+
+/* Partner Cafes Section */
+.partner-cafes {
+  padding: 2rem 0;
+  background-color: #f8f5f2;
+  margin-top: 2rem;
+}
+
+.partner-cafes .container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 1rem;
+}
+
+.partner-cafes h2 {
+  text-align: center;
+  font-size: 1.5rem;
+  margin-bottom: 1.5rem;
+  color: #333;
+  font-weight: 500;
+}
+
+.partner-grid {
+  display: flex;
+  justify-content: center;
+  gap: 3rem;
+  flex-wrap: wrap;
+}
+
+.partner-item {
+  text-align: center;
+  transition: transform 0.3s ease;
+}
+
+.partner-item:hover {
+  transform: translateY(-2px);
+}
+
+.partner-item a {
+  color: #4a4a4a;
+  text-decoration: none;
+  font-weight: 500;
+  display: block;
+  margin-bottom: 0.3rem;
+  transition: color 0.3s ease;
+}
+
+.partner-item a:hover {
+  color: #8b4513;
+}
+
+.partner-location {
+  font-size: 0.9rem;
+  color: #666;
+}
+
+@media (max-width: 768px) {
+  .partner-grid {
+    gap: 1.5rem;
+  }
+}
+
+.community-desc {
+  text-align: center;
+  color: #666;
+  font-size: 0.9rem;
+  margin-bottom: 2rem;
+  max-width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+  line-height: 1.5;
 }
